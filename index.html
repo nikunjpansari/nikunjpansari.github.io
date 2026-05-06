@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikunj Pansari</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/components.css" rel="stylesheet">
+    <link href="styles/sections.css" rel="stylesheet">
+    <link href="styles/responsive.css" rel="stylesheet">
+    <link href="styles/theme.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
   </head>
   <body id="top">
@@ -42,52 +49,29 @@
       <div>
 <div class="profile-page">
   <div class="wrapper">
-    <div class="page-header page-header-small" filter-color="green">
-      <div class="page-header-image" data-parallax="true" style="background-image: url('images/adrian-infernus-1044320-unsplash.jpg');"></div>
+    <div class="page-header page-header-small">
+      <div class="page-header-image profile-cover-image" data-parallax="true"></div>
       <div class="container">
         <div class="content-center">
           <div class="cc-profile-image">
-            <a href="#"><img src="images/Nikunj/Nikunj Pansari.jpg" alt="Nikunj Pansari"/></a>
+            <a href="#"><img src="images/Profile/Nikunj_Pansari.png" alt="Nikunj Pansari"/></a>
         </div>
-        <div class="h2 title">NIKUNJ PANSARI</div>
-          <p class="category text-white">Experienced Software Engineer | Data Scientist | ML & security Researcher </p>
-          <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a>
-          <a class="btn btn-primary mt-2 mr-2" href="https://drive.google.com/file/d/1nlWzMvaeZ-ydcZHJhEYYNVTAIjo1QWez/view?usp=sharing" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a> 
-          <a class="btn btn-primary mt-2 mr-2" href="https://scholar.google.com/citations?hl=en&user=zD2V3kgAAAAJ" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Google Scholar</a>
+        <div class="h2 title">Nikunj Pansari</div>
+          <p class="category text-white">Experienced Software Engineer | Data Science &amp; ML Enthusiast</p>
+          <div class="hero-actions" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">
+            <a class="btn btn-primary smooth-scroll" href="#contact">Hire Me</a>
+            <a class="btn btn-primary" href="https://drive.google.com/file/d/1bH-anJSsoFPKiMGB0h8HbC89qj422PoQ/view?usp=sharing">Download CV</a>
+            <a class="btn btn-primary" href="https://scholar.google.com/citations?hl=en&user=zD2V3kgAAAAJ">Google Scholar</a>
+          </div>
         </div>
       </div>
 
-      <Style>
-        .button-container {
-          display: flex;
-          flex-direction: row; /* Align buttons in a row */
-          gap: 20px; /* Add space between buttons */
-          align-items: center; /* Align buttons vertically in the row */
-          justify-content: center; 
-      }
-      
-      .btn-icon {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          height: 60px; /* Button size */
-          width: 60px; /* Button size */
-          border-radius: 50%; /* Make the button round */
-          text-align: center;
-      }
-      
-      .btn-icon i {
-          font-size: 1.5em; /* Icon size */
-      }
-      
-      
-      </Style>
       <div class="section">
         <div class="container">
             <div class="button-container">
     
                 <a class="btn btn-default btn-round btn-lg btn-icon" 
-                   href="https://www.linkedin.com/in/nikunjpansari/" 
+                   href="https://www.linkedin.com/in/nikunjpansari" 
                    rel="tooltip" 
                    title="Follow me on LinkedIn">
                     <i class="fab fa-linkedin-in fa-2x"></i>
@@ -101,7 +85,7 @@
                 </a>
                 
                 <a class="btn btn-default btn-round btn-lg btn-icon" 
-                   href="https://twitter.com/Nikunj175" 
+                   href="https://x.com/Nikunj175" 
                    rel="tooltip" 
                    title="Follow me on Twitter">
                     <i class="fab fa-twitter fa-2x"></i>
@@ -122,13 +106,6 @@
                     <i class="fab fa-stack-overflow fa-2x"></i>
                 </a>
                 
-                <a class="btn btn-default btn-round btn-lg btn-icon" 
-                   href="https://www.instagram.com/nikunjpansari95/" 
-                   rel="tooltip" 
-                   title="Follow me on Instagram">
-                    <i class="fab fa-instagram fa-2x"></i>
-                </a>
-    
             </div>
         </div>
     </div>
@@ -151,55 +128,48 @@
           <div class="p-4 p-md-5">
             <h5 class="about-title mb-3">About Me</h5>
             <p class="about-text mb-3">
-              I am an experienced <strong>Software Engineer</strong>, specializing in 
-              <strong>Data Structures &amp; Algorithms</strong> while excelling in 
-              <strong>Databases</strong>, <strong>Operating Systems</strong>, 
-              <strong>Computer Networks</strong>, and <strong>Computer Architecture</strong>. 
-              Beyond conventional roles, I’m a passionate <strong>Machine Learning Enthusiast</strong> 
-              and a committed <strong>Security Researcher</strong>.
+              Experienced <strong>Software Engineer</strong> focused on building <strong>large-scale distributed systems</strong>,
+              <strong>cloud-native microservices</strong>, and reliable backend platforms using <strong>Java</strong>,
+              <strong>Spring Boot</strong>, <strong>Python</strong>, <strong>Azure</strong>, and <strong>AWS</strong>, with strong enthusiasm
+              for <strong>Machine Learning</strong>, <strong>AI-driven capabilities</strong>, and <strong>Security Research</strong>.
             </p>
             <p class="about-text mb-0">
-              My journey blends technical proficiency with a keen interest in cutting-edge technologies,
-              allowing me to contribute across diverse domains. I strive to build efficient, real-world
-              solutions while continuously learning and growing.
+              Strong in <strong>object-oriented design</strong>, <strong>system design</strong>, <strong>concurrency</strong>,
+              <strong>performance engineering</strong>, and modern <strong>SDLC</strong> practices.
             </p>
+            <div class="about-meta-actions" aria-label="Additional profile details">
+              <a class="about-meta-chip" href="https://www.google.com/maps/search/?api=1&query=Varanasi%2C%20Uttar%20Pradesh" target="_blank" rel="noopener" data-detail="Varanasi, India" title="Varanasi, India">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Address</span>
+              </a>
+              <span class="about-meta-chip" data-detail="English, Hindi" title="English, Hindi">
+                <i class="fas fa-language"></i>
+                <span>Languages</span>
+              </span>
+            </div>
           </div>
         </div>
 
-        <!-- Basic Information -->
+        <!-- Profile Quick Info -->
         <div class="col-lg-6 col-md-12">
-          <div class="p-4 p-md-5">
-            <h5 class="about-title mb-4">Basic Information</h5>
-
+          <div class="p-4 p-md-5 about-info-panel">
             <div class="info-list">
               <div class="info-item">
                 <i class="fas fa-user"></i>
                 <span class="info-label">Age:</span>
-                <span class="info-value">27</span>
+                <span class="info-value">28</span>
               </div>
 
               <div class="info-item">
                 <i class="fas fa-envelope"></i>
                 <span class="info-label">Email:</span>
-                <span class="info-value">nikunjpansari95@gmail.com</span>
+                <a class="info-value info-link" href="mailto:nikunjpansari95@gmail.com">nikunjpansari95@gmail.com</a>
               </div>
 
               <div class="info-item">
                 <i class="fas fa-phone"></i>
                 <span class="info-label">Phone:</span>
-                <span class="info-value">+91 8393893227</span>
-              </div>
-
-              <div class="info-item">
-                <i class="fas fa-map-marker-alt"></i>
-                <span class="info-label">Address:</span>
-                <span class="info-value">Varanasi, Uttar Pradesh, India (221010)</span>
-              </div>
-
-              <div class="info-item">
-                <i class="fas fa-language"></i>
-                <span class="info-label">Languages:</span>
-                <span class="info-value">English, Hindi</span>
+                <a class="info-value info-link" href="tel:+918393893227">+91 8393893227</a>
               </div>
             </div>
 
@@ -210,68 +180,6 @@
     </div>
   </div>
 </div>
-
-<style>
-  :root {
-    --about-border: #e6e9ef;
-    --about-shadow: 0 .45rem 1.25rem rgba(0,0,0,.06);
-    --title: #0b1220;
-    --text: #374151;
-    --muted: #6b7280;
-  }
-
-  /* Outer card only */
-  .about-card {
-    background: #fff;
-    border: 1px solid var(--about-border);
-    border-radius: 18px;
-    box-shadow: var(--about-shadow);
-  }
-
-  .about-title {
-    color: var(--title);
-    font-weight: 700;
-    letter-spacing: .2px;
-  }
-
-  .about-text {
-    color: var(--text);
-    font-size: .95rem;
-    text-align: justify;
-  }
-
-  /* Info list */
-  .info-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem; /* increased spacing between rows */
-  }
-
-  .info-item {
-    display: flex;
-    align-items: center;
-    font-size: 1rem; /* slightly larger font */
-    color: var(--text);
-    line-height: 1.6;
-  }
-
-  .info-item i {
-    font-size: 1.1rem;
-    color: var(--muted);
-    margin-right: 14px; /* clear spacing between icon and text */
-    flex-shrink: 0;
-  }
-
-  .info-label {
-    font-weight: 600;
-    margin-right: .4rem;
-  }
-
-  .info-value {
-    color: var(--text);
-  }
-</style>
-
 
 <!-- ==== Skills Section (Compact, 10 Skills) ==== -->
 <div class="section" id="skill">
@@ -428,84 +336,6 @@
   </div>
 </div>
 
-<style>
-  #skill .title { letter-spacing: .3px; }
-
-  .card {
-    border: 1px solid #e8ecf3;
-    border-radius: 16px;
-    box-shadow: 0 .35rem 1rem rgba(0,0,0,.05);
-  }
-
-  /* Skill item */
-  #skill .skill-item {
-    background: #fff;
-    transition: transform .18s ease, box-shadow .18s ease;
-  }
-  #skill .skill-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 .45rem 1rem rgba(0,0,0,.05);
-  }
-
-  /* Smaller skill title */
-  #skill .skill-title {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #0f172a;
-  }
-
-  /* Ensure spacing between icon and text */
-  #skill .skill-icon {
-    margin-right: 10px;
-    font-size: 1rem;
-  }
-
-  /* Progress bar clean */
-  .progress-bar-clean {
-    height: 8px;
-    border: none;
-    width: 100%;
-    background-color: #eef1f5;
-    border-radius: 999px;
-    -webkit-appearance: none;
-    appearance: none;
-  }
-  .progress-bar-clean::-webkit-progress-bar {
-    background-color: #eef1f5;
-    border-radius: 999px;
-  }
-  .progress-bar-clean::-webkit-progress-value {
-    border-radius: 999px;
-    background: #0d6efd;
-    transition: width .3s ease;
-  }
-  .progress-bar-clean::-moz-progress-bar {
-    border-radius: 999px;
-    background: #0d6efd;
-  }
-
-  .progress-value {
-    min-width: 3rem;
-    text-align: right;
-    font-variant-numeric: tabular-nums;
-    color: #6b7280;
-    font-size: 0.75rem;
-  }
-</style>
-
-<!-- Bootstrap JS and dependencies (Popper.js) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<!-- AOS JS for Animations -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<!-- Initialize AOS -->
-<script>
-  AOS.init({
-    duration: 1000,
-    once: true
-  });
-</script>
-
-
 <div class="section" id="portfolio">
   <div class="container">
     <div class="row">
@@ -526,14 +356,14 @@
           <div class="row">
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/rishitsaiya/network-flow-graph-scripts">
-                  <figure class="cc-effect"><img src="images/Packet-Sniffers.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/Projects/Packet-Sniffers.jpg" alt="Image" loading="lazy" decoding="async"/>
                     <figcaption>
                       <div class="h4">Fake Packet Detection & Generation</div>
                       <p><em>Network Security</em></p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/nikunjpansari/Information_Security">
-                  <figure class="cc-effect"><img src="images/cybersecurity-456-e1545156521687.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/Projects/cybersecurity-456-e1545156521687.jpg" alt="Image" loading="lazy" decoding="async"/>
                     <figcaption>
                       <div class="h4">Case Studies and Analysis of Digital Storage Devices</div>
                       <p><em>Information Security</em></p>
@@ -542,14 +372,14 @@
             </div>
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/nikunjpansari/Digital_Forensics">
-                  <figure class="cc-effect"><img src="images/Digital-Forensics_2.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/Projects/Digital-Forensics_2.jpg" alt="Image" loading="lazy" decoding="async"/>
                     <figcaption>
                       <div class="h4">Forensic Analysis & Investigation of Digital Storage Devices</div>
                       <p><em>Digital Forensics</em></p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/nikunjpansari/DeepCars-Performance-Analysis">
-                  <figure class="cc-effect"><img src="images/ADAS_Cars_2.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/Projects/ADAS_Cars_2.jpg" alt="Image" loading="lazy" decoding="async"/>
                     <figcaption>
                       <div class="h4">DeepCars Performance Analysis</div>
                       <p><em>Reinforcement learning</em></p>
@@ -564,14 +394,14 @@
           <div class="row">
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/nikunjpansari/E-commerce-website">
-                  <figure class="cc-effect"><img src="images/ecommerce-website.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/Projects/ecommerce-website.jpg" alt="Image" loading="lazy" decoding="async"/>
                     <figcaption>
                       <div class="h4">E-Commerce Website</div>
                       <p><em>Web Development</em></p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/nikunjpansari/NSP-Data-Portability-Implementation">
-                  <figure class="cc-effect"><img src="images/NSP.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/Projects/NSP.jpg" alt="Image" loading="lazy" decoding="async"/>
                     <figcaption>
                       <div class="h4">Data Portability Implementation</div>
                       <p><em>Information Security</em></p>
@@ -580,14 +410,14 @@
             </div>
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/nikunjpansari/Patern_Recognition_Machine_Learning">
-                  <figure class="cc-effect"><img src="images/PRML.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/Projects/PRML.jpg" alt="Image" loading="lazy" decoding="async"/>
                     <figcaption>
                       <div class="h4">Pattern Recognition & Machine Learning</div>
                       <p><em>Data Science</em></p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/nikunjpansari/Employee-Details-Storage-Management">
-                  <figure class="cc-effect"><img src="images/EDM.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/Projects/EDM.jpg" alt="Image" loading="lazy" decoding="async"/>
                     <figcaption>
                       <div class="h4">Employee Details Storage Management</div>
                       <p><em>Web Development</em></p>
@@ -602,7 +432,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/nikunjpansari/Online-Banking-System">
-                  <figure class="cc-effect"><img src="images/OBS.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/Projects/OBS.jpg" alt="Image" loading="lazy" decoding="async"/>
                     <figcaption>
                       <div class="h4">Online Banking System</div>
                       <p><em>Web Development</em></p>
@@ -610,7 +440,7 @@
                   </figure></a></div>
             
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/nikunjpansari/Voting-System">
-                  <figure class="cc-effect"><img src="images/OVS.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/Projects/OVS.jpg" alt="Image" loading="lazy" decoding="async"/>
                     <figcaption>
                       <div class="h4">Online Voting System</div>
                       <p><em>Web Development</em></p>
@@ -619,7 +449,7 @@
               </div>
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/nikunjpansari/blogitapp">
-                  <figure class="cc-effect"><img src="images/Blog-app_2.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/Projects/Blog-app_2.jpg" alt="Image" loading="lazy" decoding="async"/>
                     <figcaption>
                       <div class="h4">Blog It App</div>
                       <p><em>Web Development</em></p>
@@ -642,8 +472,8 @@
       <div class="row no-gutters">
         <div class="col-md-3 bg-primary text-white" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header text-center">
-            <p class="mb-1" style="font-size: 1.2em; font-weight: bold;">2015 - 2019</p>
-            <div class="h6" style="text-transform: none; font-size: 1.2em;">Bachelor of Technology</div>
+            <p class="mb-1 education-period">2015 - 2019</p>
+            <div class="h6 education-degree">Bachelor of Technology</div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -661,8 +491,8 @@
       <div class="row no-gutters">
         <div class="col-md-3 bg-primary text-white" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header text-center">
-            <p class="mb-1" style="font-size: 1.2em; font-weight: bold;">2022 - 2024</p>
-            <div class="h6" style="text-transform: none; font-size: 1.2em;">Master of Technology</div>
+            <p class="mb-1 education-period">2022 - 2024</p>
+            <div class="h6 education-degree">Master of Technology</div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -698,11 +528,10 @@
             <div class="h5"><strong>Beehyv Software</strong></div>
             <p class="category"><strong>Senior Developer</strong></p>
             <ul>
-              <li>
-				  <strong>
-					Working with DIGIT egov Infrastructure, automating pipelines and customising REST APIs using YAML.
-				  </strong>
-			  </li>
+              <li><strong>Architected high-availability cloud-native microservices</strong> on <strong>Spring Boot</strong>, <strong>Kubernetes</strong>, and <strong>PostgreSQL</strong> for a production <strong>eGov platform</strong>.</li>
+              <li>Built <strong>low-latency secure REST APIs</strong> with strong <strong>observability</strong>, <strong>monitoring dashboards</strong>, and <strong>resilience</strong>.</li>
+              <li>Led <strong>architecture</strong>, <strong>scalability strategy</strong>, <strong>debugging</strong>, and <strong>cross-team incident resolution</strong> across <strong>distributed systems</strong>.</li>
+              <li>Integrated <strong>AI-driven services</strong> into backend workflows enabling <strong>real-time inference</strong>.</li>
             </ul>
           </div>
         </div>
@@ -718,10 +547,12 @@
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5"><strong>Bahwan CyberTek Consulting(Amazon Payments & Travels)</strong></div>
+            <div class="h5"><strong>Bahwan CyberTek (Amazon Payments)</strong></div>
             <p class="category"><strong>Software Development Engineer</strong></p>
             <ul>
-              <li><strong>Managing the Amazon Payment travel-based APIs for flight, train,movies & bus booking. - Improved efficiency by 12% and reduced latency to less than 30 seconds for ticket booking.</li>
+              <li><strong>Engineered high-throughput distributed APIs</strong> ensuring <strong>fault tolerance</strong>, <strong>reliability engineering</strong>, and <strong>production resilience</strong>.</li>
+              <li>Improved <strong>system efficiency by 12%</strong> through <strong>backend optimization</strong>, <strong>testing practices</strong>, and <strong>workload performance engineering</strong>.</li>
+              <li>Strengthened <strong>availability</strong>, <strong>monitoring</strong>, and <strong>operational stability</strong> under <strong>production traffic</strong>.</li>
             </ul>
           </div>
         </div>
@@ -737,11 +568,12 @@
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5"><strong>Dassault Systèmes</strong></div>
+            <div class="h5"><strong>Dassault Systemes</strong></div>
             <p class="category"><strong>Software Engineer Apprentice (SWE I)</strong></p>
             <ul>
-              <li><strong>Developed Machine Learning (ML) automation workflows</strong> and designed <strong>Python-based APIs</strong> to enhance simulation efficiency within <strong>SIMULIA</strong>, leveraging <strong>Python, API development</strong>, and <strong>automation</strong> tools to streamline <strong>R&D processes</strong>.</li>
-              <li><strong>Reverse engineered Connections functionalities</strong> in <strong>Abaqus (INP)</strong> files. Implemented a <strong>Python-based INP parser</strong> utilizing <strong>scripting, regex, OOP, 3D Mesh analysis, data visualization, ML, system design,</strong> and <strong>system architecture</strong>.</li>
+              <li><strong>Designed and implemented distributed compute pipelines</strong> and <strong>backend services</strong> supporting <strong>large-scale parallel workloads</strong>.</li>
+              <li>Enhanced <strong>algorithmic efficiency</strong>, <strong>concurrency handling</strong>, and <strong>system throughput</strong>, reducing <strong>latency by 14%</strong>.</li>
+              <li>Optimized <strong>parallel execution workflows</strong> across <strong>cloud-integrated distributed infrastructure</strong>.</li>
             </ul>
           </div>
         </div>
@@ -761,8 +593,8 @@
             <div class="h5"><strong>Indian Institute of Technology Dharwad (IIT-Dh)</strong></div>
             <p class="category"><strong>Project Assistant</strong></p>
             <ul>
-              <li><strong>Ensured reliability & security</strong> of <strong>AI/ML workloads</strong> for <strong>Advanced Driver-Assistance Systems (ADAS)</strong>, maintaining <strong>safety compliance</strong> to support <strong>autonomous driving technologies</strong>.</li>
-              <li><strong>Optimized AI/ML algorithms</strong> and <strong>system architecture</strong> to meet stringent <strong>safety standards for ADAS</strong> using <strong>Python, TensorFlow, CNNs, data visualization, edge computing, LaTeX,</strong> and <strong>Raspberry Pi</strong> to enhance performance and ensure regulatory compliance.</li>
+              <li><strong>Developed real-time distributed AI inference systems</strong> for <strong>safety-critical ADAS deployments</strong>.</li>
+              <li>Achieved <strong>14% latency reduction</strong> while ensuring <strong>secure</strong>, <strong>compliant</strong>, and <strong>resilient architectures</strong>.</li>
             </ul>
           </div>
         </div>
@@ -779,11 +611,12 @@
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5"><strong>Newgen Software</strong></div>
+            <div class="h5"><strong>Newgen Software Technologies</strong></div>
             <p class="category"><strong>Software Engineer</strong></p>
             <ul>
-              <li><strong>Orchestrated full software lifecycle management</strong> of custom <strong>Newgen products (BPM, CCM, ECM)</strong>, streamlining development and reducing delivery timelines by <strong>40%</strong> and deployment errors by <strong>25%</strong>.</li>
-              <li><strong>Integrated Java, JavaScript, and JBoss</strong> for system enhancements, reducing downtime by <strong>25%</strong> and boosting user satisfaction by <strong>30%</strong>. <strong>Optimized SQL</strong> for custom API functions, improving response time by <strong>40%</strong> and reducing data errors by <strong>15%</strong>.</li>
+              <li><strong>Drove CI/CD modernization</strong> and <strong>modular microservices architecture</strong>, accelerating delivery by <strong>40%</strong>.</li>
+              <li>Improved <strong>system reliability</strong>, <strong>uptime</strong>, <strong>monitoring</strong>, and <strong>fault tolerance</strong> across <strong>distributed enterprise platforms</strong>.</li>
+              <li>Designed <strong>scalable backend systems</strong> emphasizing <strong>maintainability</strong>, <strong>debugging</strong>, and <strong>performance optimization</strong>.</li>
             </ul>
           </div>
         </div>
@@ -813,13 +646,7 @@
   </div>
 </div>
 
-<!-- Ensure you have included Bootstrap and Font Awesome in your project -->
-<!-- Font Awesome -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-<!-- AOS Library CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
-
-<div class="section" id="certification" style="padding: 60px 0; background-color: #f8f9fa;">
+<div class="section section-muted" id="certification">
   <div class="container">
     <div class="card shadow-sm" data-aos="fade-up" data-aos-offset="10">
       <div class="card-body">
@@ -1017,21 +844,6 @@
       </div>
     </div>
     
-    <!-- Optional: Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- AOS Library JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-      AOS.init({
-        duration: 800,
-        easing: 'slide',
-        once: true
-      });
-    </script>
-
-
 <div class="section" id="publications">
   <div class="container cc-education">
     <div class="h4 text-center mb-4 title">Publications</div>
@@ -1041,8 +853,8 @@
       <div class="row no-gutters">
         <div class="col-md-3 bg-primary text-white d-flex align-items-center justify-content-center" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header text-center">
-            <p class="mb-1"><strong>2024</strong></p>
-            <p class="h5"><strong>Conference</strong></p>
+            <p class="publication-meta-year mb-2"><strong>2024</strong></p>
+            <p class="publication-meta-type h5 mb-0"><strong>Conference</strong></p>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -1058,8 +870,8 @@
       <div class="row no-gutters">
         <div class="col-md-3 bg-primary text-white d-flex align-items-center justify-content-center" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header text-center">
-            <p class="mb-1"><strong>2023</strong></p>
-            <p class="h5"><strong>Book Chapter</strong></p>
+            <p class="publication-meta-year mb-2"><strong>2023</strong></p>
+            <p class="publication-meta-type h5 mb-0"><strong>Book Chapter</strong></p>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -1076,8 +888,8 @@
       <div class="row no-gutters">
         <div class="col-md-3 bg-primary text-white d-flex align-items-center justify-content-center" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header text-center">
-            <p class="mb-1"><strong>2022</strong></p>
-            <p class="h5"><strong>Conference</strong></p>
+            <p class="publication-meta-year mb-2"><strong>2022</strong></p>
+            <p class="publication-meta-type h5 mb-0"><strong>Conference</strong></p>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -1094,8 +906,8 @@
       <div class="row no-gutters">
         <div class="col-md-3 bg-primary text-white d-flex align-items-center justify-content-center" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header text-center">
-            <p class="mb-1"><strong>2020</strong></p>
-            <p class="h5"><strong>Journal</strong></p>
+            <p class="publication-meta-year mb-2"><strong>2020</strong></p>
+            <p class="publication-meta-type h5 mb-0"><strong>Journal</strong></p>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -1112,8 +924,8 @@
       <div class="row no-gutters">
         <div class="col-md-3 bg-primary text-white d-flex align-items-center justify-content-center" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header text-center">
-            <p class="mb-1"><strong>2019</strong></p>
-            <p class="h5"><strong>Journal</strong></p>
+            <p class="publication-meta-year mb-2"><strong>2019</strong></p>
+            <p class="publication-meta-type h5 mb-0"><strong>Journal</strong></p>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -1130,8 +942,8 @@
       <div class="row no-gutters">
         <div class="col-md-3 bg-primary text-white d-flex align-items-center justify-content-center" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header text-center">
-            <p class="mb-1"><strong>2018</strong></p>
-            <p class="h5"><strong>Conference</strong></p>
+            <p class="publication-meta-year mb-2"><strong>2018</strong></p>
+            <p class="publication-meta-type h5 mb-0"><strong>Conference</strong></p>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -1148,8 +960,8 @@
       <div class="row no-gutters">
         <div class="col-md-3 bg-primary text-white d-flex align-items-center justify-content-center" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header text-center">
-            <p class="mb-1"><strong>2018</strong></p>
-            <p class="h5"><strong>Journal</strong></p>
+            <p class="publication-meta-year mb-2"><strong>2018</strong></p>
+            <p class="publication-meta-type h5 mb-0"><strong>Journal</strong></p>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -1164,9 +976,8 @@
   </div>
 
 </div>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
-<div class="section" id="achievements" style="padding: 60px 0; background-color: #f8f9fa;">
+<div class="section section-muted" id="achievements">
   <div class="container">
     <div class="card shadow-sm" data-aos="fade-up" data-aos-offset="10">
       <div class="card-body">
@@ -1245,62 +1056,60 @@
 
 
 <div class="section" id="contact">
-  <div class="cc-contact-information" style="background-image: url('images/staticmap.png');">
+  <div class="cc-contact-information contact-map">
     <div class="container">
       <div class="cc-contact">
         <div class="row">
           <div class="col-md-9">
-            <div class="card mb-0" data-aos="zoom-in">
-              <div class="h4 text-center title">Contact Me</div>
+            <div class="card mb-0 contact-card" data-aos="zoom-in">
+              <div class="contact-card-header">
+                <div class="contact-icon-badge" aria-hidden="true">
+                  <i class="far fa-envelope"></i>
+                </div>
+                <div class="h4 text-center title">Contact Me</div>
+                <div class="contact-title-mark" aria-hidden="true"><span></span></div>
+                <p class="contact-subtitle">Feel free to contact me. I'll get back to you as soon as possible.</p>
+              </div>
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <div class="card-body">
                     <form action="https://formspree.io/f/xnqovvbv" method="POST">
-                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
                       <div class="row mb-3">
                         <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                          <div class="input-group contact-field"><span class="input-group-addon"><i class="far fa-user"></i></span>
                             <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                          <div class="input-group contact-field"><span class="input-group-addon"><i class="far fa-file-alt"></i></span>
                             <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                          <div class="input-group contact-field"><span class="input-group-addon"><i class="far fa-envelope"></i></span>
                             <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
-                          <div class="form-group">
+                          <div class="input-group contact-field contact-message-field">
+                            <span class="input-group-addon"><i class="far fa-comment"></i></span>
                             <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
                           </div>
                         </div>
                       </div>
-                      <div class="row">
-                        <div class="col">
-                          <button class="btn btn-primary" type="submit">Send</button>
+                      <div class="row contact-submit-row">
+                        <div class="col contact-submit-actions">
+                          <button class="btn btn-primary contact-submit-btn" type="submit"><i class="far fa-paper-plane"></i> Send Message</button>
+                          <span class="contact-safe-note"><i class="fas fa-shield-alt"></i> Your information is safe with me.</span>
                         </div>
                       </div>
                     </form>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <p class="mb-0"><strong>Address </strong></p>
-                    <p class="pb-2">Varanasi, India</p>
-                    <p class="mb-0"><strong>Phone</strong></p>
-                    <p class="pb-2"><a href="tel:+918393893227">+91 8393893227</a></p>
-                    <p class="mb-0"><strong>Email</strong></p>
-                    <p><a href="mailto:nikunjpansari95@gmail.com">nikunjpansari95@gmail.com</a></p>
                   </div>
                 </div>
               </div>
@@ -1314,37 +1123,12 @@
     </div>
     <footer class="footer">
       
-      <Style>
-        .button-container {
-          display: flex;
-          flex-direction: row; /* Align buttons in a row */
-          gap: 20px; /* Add space between buttons */
-          align-items: center; /* Align buttons vertically in the row */
-          justify-content: center; 
-      }
-      
-      .btn-icon {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          height: 60px; /* Button size */
-          width: 60px; /* Button size */
-          border-radius: 50%; /* Make the button round */
-          text-align: center;
-      }
-      
-      .btn-icon i {
-          font-size: 1.5em; /* Icon size */
-      }
-      
-      
-      </Style>
       <div class="section">
         <div class="container">
             <div class="button-container">
     
                 <a class="btn btn-default btn-round btn-lg btn-icon" 
-                   href="https://www.linkedin.com/in/nikunj-pansari-0b89b3128/" 
+                   href="https://www.linkedin.com/in/nikunjpansari" 
                    rel="tooltip" 
                    title="Follow me on LinkedIn">
                     <i class="fab fa-linkedin-in fa-2x"></i>
@@ -1358,7 +1142,7 @@
                 </a>
                 
                 <a class="btn btn-default btn-round btn-lg btn-icon" 
-                   href="https://twitter.com/Nikunj175" 
+                   href="https://x.com/Nikunj175" 
                    rel="tooltip" 
                    title="Follow me on Twitter">
                     <i class="fab fa-twitter fa-2x"></i>
@@ -1379,17 +1163,9 @@
                     <i class="fab fa-stack-overflow fa-2x"></i>
                 </a>
                 
-                <a class="btn btn-default btn-round btn-lg btn-icon" 
-                   href="https://www.instagram.com/nikunjpansari95/" 
-                   rel="tooltip" 
-                   title="Follow me on Instagram">
-                    <i class="fab fa-instagram fa-2x"></i>
-                </a>
-    
             </div>
         </div>
     </div>
-      <div class="h4 title text-center">Nikunj Pansari</div>
       <div class="text-center text-muted">
         <p>&copy; All rights reserved.</p>
       </div>
@@ -1399,6 +1175,7 @@
     <script src="js/core/bootstrap.min.js"></script>
     <script src="js/now-ui-kit.js?v=1.1.0"></script>
     <script src="js/aos.js"></script>
+    <script src="scripts/aos-config.js"></script>
     <script src="scripts/main.js"></script>
   </body>
 </html>

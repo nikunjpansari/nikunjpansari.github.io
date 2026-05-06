@@ -7258,19 +7258,10 @@ Created using IcoMoon - icomoon.io
   color: #dd4b39;
 }
 
-.cc-instagram:hover i {
-  color: #405de6;
-}
-
 /* Credit Style */
 a.credit {
   color: inherit;
   border-bottom: 1px dashed;
   text-decoration: none;
   cursor: pointer;
-}
-
-/* Common Style */
-.section {
-  padding-bottom: 0;
 }
