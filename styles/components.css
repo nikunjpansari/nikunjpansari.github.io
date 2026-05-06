@@ -1,0 +1,63 @@
+/* Reusable custom components */
+.button-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.btn-icon i {
+  font-size: 1.5em;
+}
+
+.card {
+  border: 1px solid #e8ecf3;
+  border-radius: 16px;
+  box-shadow: 0 .35rem 1rem rgba(0, 0, 0, .05);
+}
+
+.progress-bar-clean {
+  height: 8px;
+  border: none;
+  width: 100%;
+  background-color: #eef1f5;
+  border-radius: 999px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.progress-bar-clean::-webkit-progress-bar {
+  background-color: #eef1f5;
+  border-radius: 999px;
+}
+
+.progress-bar-clean::-webkit-progress-value {
+  border-radius: 999px;
+  background: #0d6efd;
+  transition: width .3s ease;
+}
+
+.progress-bar-clean::-moz-progress-bar {
+  border-radius: 999px;
+  background: #0d6efd;
+}
+
+.progress-value {
+  min-width: 3rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: #6b7280;
+  font-size: 0.75rem;
+}

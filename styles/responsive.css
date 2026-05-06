@@ -1,0 +1,11 @@
+/* Custom responsive refinements */
+@media (max-width: 767px) {
+  .button-container {
+    gap: 14px;
+  }
+
+  .btn-icon {
+    height: 52px;
+    width: 52px;
+  }
+}

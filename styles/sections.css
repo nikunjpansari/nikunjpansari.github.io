@@ -1,0 +1,86 @@
+/* About section */
+.about-card {
+  background: #fff;
+  border: 1px solid var(--about-border);
+  border-radius: 18px;
+  box-shadow: var(--about-shadow);
+}
+
+.about-title {
+  color: var(--title);
+  font-weight: 700;
+  letter-spacing: .2px;
+}
+
+.about-text {
+  color: var(--text);
+  font-size: .95rem;
+  text-align: justify;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.info-item i {
+  font-size: 1.1rem;
+  color: var(--muted);
+  margin-right: 14px;
+  flex-shrink: 0;
+}
+
+.info-label {
+  font-weight: 600;
+  margin-right: .4rem;
+}
+
+.info-value {
+  color: var(--text);
+}
+
+/* Skills section */
+#skill .title {
+  letter-spacing: .3px;
+}
+
+#skill .skill-item {
+  background: #fff;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+#skill .skill-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 .45rem 1rem rgba(0, 0, 0, .05);
+}
+
+#skill .skill-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+#skill .skill-icon {
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+/* Education section */
+.education-period {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.education-degree {
+  font-size: 1.2em;
+  text-transform: none;
+}

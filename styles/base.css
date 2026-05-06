@@ -1,0 +1,25 @@
+/* Portfolio-wide custom variables and layout utilities */
+:root {
+  --about-border: #e6e9ef;
+  --about-shadow: 0 .45rem 1.25rem rgba(0, 0, 0, .06);
+  --title: #0b1220;
+  --text: #374151;
+  --muted: #6b7280;
+}
+
+.section {
+  padding-bottom: 0;
+}
+
+.section-muted {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.profile-cover-image {
+  background-image: url('../images/Background/Nikunj_Portfolio_image.png');
+}
+
+.contact-map {
+  background-image: url('../images/Contact/staticmap.png');
+}
