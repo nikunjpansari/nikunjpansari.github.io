@@ -20,6 +20,12 @@
   background-image: url('../images/Background/Nikunj_Portfolio_image.png');
 }
 
+.navbar.bg-primary,
+.navbar.navbar-transparent,
+.fixed-top.navbar {
+  background-image: url('../images/Background/Nikunj_Portfolio_Header.png');
+}
+
 .contact-map {
   background-image: url('../images/Contact/staticmap.png');
 }
