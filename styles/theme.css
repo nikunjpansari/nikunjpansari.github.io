@@ -1291,11 +1291,11 @@ body {
 }
 
 #skill .card-body {
-  padding: 1.65rem !important;
+  padding: 1.25rem !important;
 }
 
 #skill .row.g-4 {
-  row-gap: 14px;
+  row-gap: 10px;
   margin-right: -7px;
   margin-left: -7px;
 }
@@ -1306,9 +1306,9 @@ body {
 }
 
 #skill .skill-item {
-  min-height: 92px;
-  padding: 13px 15px !important;
-  border-radius: 18px;
+  min-height: 78px;
+  padding: 10px 12px !important;
+  border-radius: 14px;
 }
 
 #skill .skill-title {
@@ -1317,23 +1317,30 @@ body {
 }
 
 #skill .skill-icon {
-  width: 24px;
-  height: 24px;
-  margin-right: 7px;
-  font-size: .74rem;
+  width: 21px;
+  height: 21px;
+  margin-right: 6px;
+  font-size: .68rem;
 }
 
 #skill .progress-bar-clean {
-  height: 6px;
+  height: 5px;
 }
 
 #skill .progress-value {
-  min-width: 2.4rem;
-  font-size: .64rem;
+  min-width: 2.15rem;
+  font-size: .6rem;
+}
+
+#publications .col-md-3.bg-primary {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 #publications .cc-education-header {
   width: 100%;
+  padding: 0 !important;
   text-align: center !important;
 }
 
@@ -1732,7 +1739,7 @@ body {
 .fixed-top.navbar {
   background-image:
     linear-gradient(90deg, rgba(4, 18, 31, .62), rgba(7, 89, 133, .46)),
-    url('../images/Background/Nikunj_Portfolio_image.png') !important;
+    url('../images/Background/Nikunj_Portfolio_Header.png') !important;
   background-size: cover !important;
   background-position: center 42% !important;
   background-repeat: no-repeat !important;
@@ -1768,6 +1775,10 @@ body {
 #publications .card-body p,
 #certification .card-body p {
   font-size: .88rem;
+}
+
+#experience .card .category {
+  text-transform: none;
 }
 
 #publications .publication-meta-year {
@@ -1859,13 +1870,16 @@ body {
   filter: none !important;
   opacity: 1 !important;
   background-color: transparent !important;
+  background-size: 104% auto !important;
+  background-position: center 42% !important;
+  background-repeat: no-repeat !important;
 }
 
 .navbar.bg-primary,
 .navbar.navbar-transparent,
 .fixed-top.navbar {
   background-color: transparent !important;
-  background-image: url('../images/Background/Nikunj_Portfolio_image.png') !important;
+  background-image: url('../images/Background/Nikunj_Portfolio_Header.png') !important;
   background-size: cover !important;
   background-position: center 42% !important;
   background-repeat: no-repeat !important;
@@ -2061,34 +2075,60 @@ body {
   margin-bottom: .25rem !important;
 }
 
+#publications .col-md-3.bg-primary {
+  min-height: 100%;
+}
+
+#publications .cc-education-header {
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 !important;
+}
+
+#publications .card .category {
+  text-transform: none !important;
+}
+
+@media (max-width: 767.98px) {
+  .profile-cover-image {
+    background-size: auto 104% !important;
+  }
+}
+
 #certification .accordion .card,
 #certification #certificationsAccordion .card {
-  margin-bottom: .8rem !important;
+  margin-bottom: .55rem !important;
 }
 
 #certification .card-header {
-  padding: .55rem .85rem;
+  padding: .38rem .7rem;
 }
 
 #certification .card-header h5,
 #certification .card-header .mb-0,
 #certification .accordion .btn-link {
-  font-size: .82rem !important;
-  line-height: 1.25;
+  font-size: .76rem !important;
+  line-height: 1.18;
+  padding-top: .2rem;
+  padding-bottom: .2rem;
 }
 
 #certification .accordion .card-body {
-  padding: .85rem 1rem;
+  padding: .6rem .85rem;
 }
 
 #certification .accordion .card-body h5,
 #certification .accordion .card-body h5 a {
-  font-size: .88rem !important;
-  line-height: 1.3;
+  font-size: .82rem !important;
+  line-height: 1.25;
 }
 
 #certification .accordion .card-body p {
-  margin-bottom: .55rem;
+  margin-bottom: .35rem;
+  line-height: 1.38;
 }
 
 @media (max-width: 767.98px) {
