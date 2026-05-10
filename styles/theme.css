@@ -2260,3 +2260,690 @@ body {
   font-size: 1.08rem;
   text-align: center;
 }
+
+/* Responsive correction pass */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+.card,
+.about-card,
+.cc-porfolio-image,
+.input-group,
+.form-control,
+.btn {
+  min-width: 0;
+}
+
+.card-body,
+.about-text,
+.info-value,
+.list-group-item,
+#experience li,
+#publications p,
+#certification p,
+#certification a {
+  overflow-wrap: anywhere;
+}
+
+.profile-page .page-header.page-header-small {
+  min-height: clamp(560px, 72vh, 680px);
+}
+
+.profile-page .content-center {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+@media (max-width: 1199.98px) {
+  .navbar {
+    padding-top: .42rem;
+    padding-bottom: .42rem;
+  }
+
+  .navbar .container {
+    align-items: center;
+    gap: 8px 12px;
+  }
+
+  .navbar .navbar-brand {
+    margin-right: 8px;
+    font-size: .9rem;
+  }
+
+  .navbar-nav {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    row-gap: 5px;
+    white-space: normal;
+  }
+
+  .navbar .nav-item {
+    min-width: 0;
+  }
+
+  .navbar .nav-link {
+    padding: .36rem .48rem !important;
+    font-size: .62rem !important;
+    line-height: 1.15 !important;
+    white-space: nowrap;
+  }
+
+  .profile-page .content-center .h2.title {
+    font-size: clamp(2.2rem, 5vw, 4rem);
+  }
+
+  .profile-page .content-center .category.text-white {
+    font-size: clamp(.86rem, 1.8vw, 1.08rem);
+  }
+}
+
+@media (max-width: 991.98px) {
+  .sidebar-collapse .navbar-collapse,
+  .sidebar-collapse [class*="navbar-expand-"] .navbar-collapse {
+    flex-basis: 100% !important;
+    width: 100% !important;
+    padding: 4px 0 0 !important;
+  }
+
+  #navigation .navbar-nav {
+    justify-content: flex-start;
+    max-width: 100%;
+    padding-bottom: 6px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  #navigation .navbar-nav .nav-link {
+    font-size: .66rem !important;
+  }
+
+  #education .row.no-gutters,
+  #experience .row.no-gutters,
+  #publications .row.no-gutters {
+    flex-direction: column;
+  }
+
+  #education .row.no-gutters > [class*="col-"],
+  #experience .row.no-gutters > [class*="col-"],
+  #publications .row.no-gutters > [class*="col-"] {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .cc-education-header {
+    min-height: auto !important;
+    padding: 1rem !important;
+  }
+
+  #experience .card-body,
+  #education .card-body,
+  #publications .card-body {
+    padding: 1.15rem 1.25rem;
+  }
+
+  #experience .card-body li,
+  #experience .card-body p,
+  #publications .card-body p,
+  #certification .card-body p {
+    text-align: left;
+  }
+
+  #contact .col-md-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar.fixed-top {
+    position: sticky;
+    top: 0;
+  }
+
+  .profile-page .page-header.page-header-small {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+    padding-top: 0;
+    background-image: url('../images/Background/Nikunj_Portfolio_image.png') !important;
+    background-size: cover !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .profile-page .page-header .container {
+    min-height: 0;
+  }
+
+  .profile-page .page-header .profile-cover-image {
+    inset: 0;
+    z-index: 0 !important;
+    transform: none !important;
+    background-size: cover !important;
+    background-position: center top !important;
+  }
+
+  .profile-page .content-center {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100%;
+    max-width: 100%;
+    padding: 32px 16px 18px;
+    transform: none !important;
+  }
+
+  .cc-profile-image {
+    margin-bottom: 14px;
+  }
+
+  .cc-profile-image a::before {
+    width: 138px;
+    height: 138px;
+    border-width: 10px;
+  }
+
+  .cc-profile-image img {
+    width: 138px;
+    height: 138px;
+    border-width: 8px;
+  }
+
+  .profile-page .content-center .h2.title {
+    font-size: clamp(2rem, 10vw, 2.8rem);
+    line-height: 1.08;
+  }
+
+  .profile-page .content-center .category.text-white {
+    max-width: 100%;
+    padding: .55rem .75rem;
+    font-size: .9rem;
+    line-height: 1.35;
+  }
+
+  .hero-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: min(100%, 340px);
+    margin: 16px auto 0;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    min-width: 0;
+    padding: 12px 14px;
+    white-space: normal;
+  }
+
+  .profile-page .page-header > .section {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    padding: 8px 0 30px;
+  }
+
+  .profile-page .page-header > .section .button-container {
+    gap: 10px;
+    padding: 0 14px;
+  }
+
+  .button-container .btn.btn-icon.btn-lg,
+  .button-container .btn-icon {
+    width: 48px !important;
+    min-width: 48px !important;
+    height: 48px !important;
+  }
+
+  .btn-icon i,
+  .btn.btn-icon:not(.btn-footer) i.fa,
+  .btn.btn-icon:not(.btn-footer) i.fab {
+    font-size: 1.25rem !important;
+  }
+
+  .section {
+    padding: 42px 0;
+  }
+
+  .section h4.title,
+  .section .h4.title,
+  #certification h4.card-title,
+  #achievements h4.card-title,
+  #contact .h4.title,
+  .footer .h4.title {
+    width: auto;
+    max-width: calc(100vw - 32px);
+    min-height: 0;
+    padding: 8px 14px;
+    border-radius: 18px;
+    font-size: 1.05rem;
+    line-height: 1.25;
+    white-space: normal;
+  }
+
+  #about .about-left .p-4,
+  #about .about-left .p-md-5,
+  #about .about-info-panel {
+    padding: 1rem !important;
+  }
+
+  #about .about-info-panel .info-list {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  #about .about-info-panel .info-item,
+  .info-item {
+    align-items: flex-start;
+    min-height: 0;
+    padding: .8rem;
+    font-size: .88rem;
+    line-height: 1.35;
+  }
+
+  .info-label {
+    flex: 0 0 auto;
+  }
+
+  .about-meta-actions {
+    gap: 8px;
+  }
+
+  .about-meta-chip {
+    flex: 1 1 130px;
+    justify-content: center;
+  }
+
+  #skill .card-body {
+    padding: .95rem !important;
+  }
+
+  #skill .row.g-4 {
+    row-gap: 12px;
+  }
+
+  #skill .row.g-4 > [class*="col-"] {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #skill .skill-item {
+    min-height: 0;
+    padding: 12px !important;
+  }
+
+  #portfolio .nav-pills {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .gallery .cc-porfolio-image {
+    margin-bottom: 16px;
+  }
+
+  .gallery figure.cc-effect .h4 {
+    margin-top: 18%;
+    padding: 0 10px;
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+  .gallery figure.cc-effect p {
+    padding: .35rem .75rem;
+    font-size: .75rem;
+  }
+
+  #certification .accordion .btn-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    min-width: 0;
+    white-space: normal;
+    text-align: left !important;
+  }
+
+  #certification .accordion .btn-link i {
+    flex: 0 0 auto;
+  }
+
+  #achievements .list-group-item {
+    align-items: flex-start !important;
+    gap: 10px;
+    padding: .9rem .75rem;
+  }
+
+  #achievements .list-group-item i {
+    margin-right: 0 !important;
+    margin-top: .2rem;
+  }
+
+  #contact {
+    padding-top: 42px;
+  }
+
+  #contact .cc-contact {
+    padding: 28px 0 34px;
+  }
+
+  #contact .contact-card {
+    padding: 22px 14px 26px;
+    border-radius: 22px;
+  }
+
+  #contact .contact-subtitle {
+    font-size: .9rem;
+  }
+
+  #contact .contact-field,
+  #contact .contact-message-field {
+    min-height: 0;
+  }
+
+  #contact .input-group-addon {
+    min-width: 46px;
+  }
+
+  #contact .form-control {
+    min-height: 46px;
+    font-size: .9rem;
+  }
+
+  #contact textarea.form-control {
+    min-height: 112px;
+  }
+
+  #contact .contact-submit-actions {
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  #contact .contact-safe-note {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 399.98px) {
+  .navbar .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  #navigation .navbar-nav .nav-link {
+    padding: .4rem .5rem !important;
+    font-size: .62rem !important;
+  }
+
+  .profile-page .content-center {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .profile-page .content-center .h2.title {
+    font-size: 1.85rem;
+  }
+
+  .profile-page .content-center .category.text-white {
+    font-size: .82rem;
+  }
+
+  .hero-actions {
+    width: 100%;
+  }
+
+  .button-container .btn.btn-icon.btn-lg,
+  .button-container .btn-icon {
+    width: 44px !important;
+    min-width: 44px !important;
+    height: 44px !important;
+  }
+
+  .container {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  #contact .contact-card {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
+
+/* Publications responsiveness refinement */
+#publications .card {
+  overflow: hidden;
+}
+
+#publications .row.no-gutters {
+  align-items: stretch;
+}
+
+#publications .col-md-3.bg-primary {
+  flex: 0 0 29%;
+  max-width: 29%;
+  min-height: 168px;
+}
+
+#publications .col-md-9 {
+  flex: 0 0 71%;
+  max-width: 71%;
+}
+
+#publications .cc-education-header {
+  gap: 8px;
+  min-height: 100%;
+  padding: 1.35rem .9rem !important;
+}
+
+#publications .publication-meta-year {
+  margin-bottom: 0 !important;
+  font-size: clamp(1.22rem, 2.2vw, 1.65rem);
+  line-height: 1.05;
+}
+
+#publications .publication-meta-type {
+  max-width: 100%;
+  font-size: clamp(.88rem, 1.25vw, 1.05rem);
+  line-height: 1.2;
+  white-space: normal;
+}
+
+#publications .card-body h5 {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 1199.98px) {
+  #publications .col-md-3.bg-primary {
+    flex-basis: 31%;
+    max-width: 31%;
+    min-height: 156px;
+  }
+
+  #publications .col-md-9 {
+    flex-basis: 69%;
+    max-width: 69%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #publications .col-md-3.bg-primary,
+  #publications .col-md-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #publications .col-md-3.bg-primary {
+    min-height: 118px;
+  }
+
+  #publications .cc-education-header {
+    min-height: 118px !important;
+    padding: 1.15rem !important;
+  }
+
+  #publications .publication-meta-year {
+    font-size: 1.55rem;
+  }
+
+  #publications .publication-meta-type {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #publications .card.mb-4 {
+    margin-bottom: 1.15rem !important;
+  }
+
+  #publications .col-md-3.bg-primary {
+    min-height: 124px;
+  }
+
+  #publications .cc-education-header {
+    min-height: 124px !important;
+    padding: 1.2rem .9rem !important;
+  }
+
+  #publications .publication-meta-year {
+    font-size: 1.7rem;
+  }
+
+  #publications .publication-meta-type {
+    font-size: 1.05rem;
+  }
+
+  #publications .card-body {
+    padding: 1.1rem !important;
+  }
+}
+
+/* Final mobile header gap fix */
+@media (max-width: 767.98px) {
+  header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  header .profile-page {
+    height: 0;
+    min-height: 0;
+  }
+
+  .navbar.fixed-top {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 !important;
+  }
+
+  .profile-page .page-header.page-header-small {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    background:
+      url('../images/Background/Nikunj_Portfolio_image.png') center top / cover no-repeat,
+      #020617 !important;
+  }
+
+  .profile-page .page-header .profile-cover-image {
+    top: 0 !important;
+    bottom: 0 !important;
+    height: 100% !important;
+    background-size: cover !important;
+    background-position: center top !important;
+  }
+
+  .profile-page .content-center {
+    padding-top: clamp(180px, 30vh, 220px) !important;
+  }
+}
+
+@media (max-width: 399.98px) {
+  .profile-page .content-center {
+    padding-top: clamp(166px, 29vh, 204px) !important;
+  }
+}
+
+/* Tablet hero containment for iPad Mini/Air/Pro portrait widths */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .profile-page .page-header.page-header-small {
+    height: clamp(760px, 78vh, 920px) !important;
+    min-height: 760px !important;
+    max-height: none !important;
+    background:
+      url('../images/Background/Nikunj_Portfolio_image.png') center center / cover no-repeat,
+      #020617 !important;
+  }
+
+  .profile-page .page-header .profile-cover-image {
+    inset: 0 !important;
+    height: 100% !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+
+  .profile-page .content-center {
+    top: 50% !important;
+    max-width: min(860px, calc(100vw - 56px));
+  }
+
+  .profile-page .page-header > .section {
+    position: absolute !important;
+    right: 0 !important;
+    bottom: 34px !important;
+    left: 0 !important;
+    z-index: 6;
+    padding: 0 !important;
+    background: transparent !important;
+  }
+
+  .profile-page .page-header > .section .container {
+    max-width: 100%;
+    background: transparent !important;
+  }
+
+  .profile-page .page-header > .section .button-container {
+    gap: clamp(18px, 3.4vw, 34px);
+    padding: 0 28px;
+  }
+
+  .profile-page .button-container .btn.btn-icon.btn-lg,
+  .profile-page .button-container .btn-icon {
+    width: clamp(60px, 7vw, 74px) !important;
+    min-width: clamp(60px, 7vw, 74px) !important;
+    height: clamp(60px, 7vw, 74px) !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+  .profile-page .page-header.page-header-small {
+    height: clamp(780px, 72vh, 940px) !important;
+    min-height: 780px !important;
+  }
+
+  .profile-page .content-center {
+    top: 49% !important;
+  }
+}
